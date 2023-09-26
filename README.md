@@ -8,10 +8,6 @@ This is a simple ToDo List application built with Next.js. It allows you to crea
 - **Edit**: Modify the details of existing tasks.
 - **Complete**: Mark tasks as completed.
 - **Delete**: Remove tasks from your list.
-- **Due Dates**: Set due dates for tasks to help you stay organized.
-- **Prioritization**: Prioritize tasks as low, medium, or high based on their importance.
-- **Filter**: Easily filter tasks by completed and active status.
-- **Sort**: Sort tasks by due date or priority to focus on what's most important.
 - **Persistence**: Tasks are automatically saved to local storage, so you won't lose them even if you refresh the page.
 
 ## Installation
