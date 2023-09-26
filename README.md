@@ -23,11 +23,14 @@ To run this application on your local machine, follow these steps:
 
    
 3.  npm install
-   # or
+    or
    yarn install
 
 4. npm run dev
-   # or
+    or
    yarn dev
+
+5. Open your web browser and go to http://localhost:3000 to access the application.
+
 
 
