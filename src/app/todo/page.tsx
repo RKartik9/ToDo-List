@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { signOut } from "next-auth/react";
 import { FaEdit, FaCheck, FaTrash } from "react-icons/fa";
 import { useSession } from "next-auth/react";
 import Link from "next/link";
@@ -150,6 +151,12 @@ export default function TodoPage() {
         >
           Home Page
         </Link>
+        <button
+          className="bg-cyan-500 text-white rounded-full py-2 px-6 text-lg font-semibold hover:bg-cyan-600 hover:text-white transition duration-300 ease-in-out transform hover:scale-105 mb-4 ml-4"
+          onClick={() => signOut()}
+        >
+          Sign Out
+        </button>
       </div>
     </>
   );
